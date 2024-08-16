@@ -1,5 +1,15 @@
-public class Main{
-  public static void main(String args[]){
-    Sysyem.out.println("Hello World");
-  }
+class Calculator{
+    int a;  // instance variable 
+    public int add(int n1,int n2){
+        System.out.println("Addition  :"+(n1+n2));
+        return 0;
+    }
+}
+class CalObj{
+    public static void main(String aegs[]){
+        Calculator obj=new Calculator(); // reference variable is obj  
+        int num1=10;
+        int num2=20;
+        obj.add(num1,num2);// function call 
+    }
 }
