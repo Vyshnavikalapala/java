@@ -1,0 +1,25 @@
+import java.util.*;
+class Amstrong {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        int sum=0;
+        int digit=0;
+        int temp=num;
+        while(temp!=0){
+            digit = temp% 10;
+            sum+=(int)Math.pow(digit,len);
+            temp/=10;
+        }
+        if(sum== num){
+            System.out.println("Amstrong number:");
+        }
+        else{
+            System.out.println("Not a Amstrong number:");
+        }
+    }
+    static int order(int x){
+        int len=0;
+        while 
+    }
+}
